@@ -1,0 +1,6 @@
+resources:
+  volumes:
+    main_vol:
+      name: data_dump
+      catalog_name: ${var.catalog}
+      schema_name: ${bundle.name}_brz
