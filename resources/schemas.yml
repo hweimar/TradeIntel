@@ -1,0 +1,13 @@
+resources:
+  schemas:
+    bronze_schema:
+      catalog_name: ${var.catalog}
+      name: ${bundle.name}_brz
+
+    silver_schema:
+      catalog_name: ${var.catalog}
+      name: ${bundle.name}_slv
+
+    gold_schema:
+      catalog_name: ${var.catalog}
+      name: ${bundle.name}_gld
